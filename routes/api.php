@@ -72,5 +72,7 @@ Route::middleware('auth:sanctum')->group(function () {
     */
 
     Route::apiResource('repair-logs', RepairLogController::class);
+    
+    
 
 });
